@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url(./images/mainbackground.jpeg);
+  font-size: 1.75rem;
+}
+
+.main-container {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.page-container {
+  border: 3px solid rgba(0, 0, 0, 0.233);
+  text-align: center;
+  display: block;
+  background-color: rgb(187, 184, 184);
+  width: 60vw;
+  height: 40vh;
+  position: absolute;
+  left: calc(50% - 30vw);
+  top: calc(50% + 20vh);
+
+  z-index: 0;
+}
+
+.modal-container {
+  visibility: hidden;
+  text-align: center;
+  border: 1px solid blue;
+  display: block;
+  background-color: rgb(33, 148, 224);
+  width: 30vw;
+  height: 20vh;
+  position: absolute;
+  left: calc(50% - 15vw);
+  top: calc(50% + 30vh);
+  z-index: 1;
+  box-shadow: 0px 10px 47px 45px rgba(0, 0, 0, 0.77);
+}
+
+.btn {
+  padding: 20px 40px;
+  font-size: 1.5rem;
+}
